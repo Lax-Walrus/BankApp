@@ -2,31 +2,39 @@
   background-color: pink;
 }
 
+/* Header edits */
 .header {
-  border: 10px solid black;
-  border-radius: 3rem;
+  border: 5px solid black;
+  border-radius: 1rem;
 }
 
 .row {
   display: flex;
 }
 
+.Primary__title {
+  margin-left: 1rem;
+}
+
+.Secondary__title {
+}
+
 .phone,
-.sub-text {
-  margin: 0;
+.sub-text,
+.icon {
+  margin: 0 auto;
   margin-left: 5rem;
   text-align: center;
+  align-items: center;
 }
 
 .phone {
   margin-top: 1rem;
-  margin-bottom: 0;
 }
-
-/* .sub-text {
-  margin-bottom: 1.5rem;
-} */
-
+.sub-text {
+  padding-left: 6rem;
+}
 .icon {
-  margin-right: 1rem;
+  margin-top: 5rem;
+  /* margin-right: 1rem; */
 }
