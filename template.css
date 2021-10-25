@@ -1,0 +1,32 @@
+* {
+  background-color: pink;
+}
+
+.header {
+  border: 10px solid black;
+  border-radius: 3rem;
+}
+
+.row {
+  display: flex;
+}
+
+.phone,
+.sub-text {
+  margin: 0;
+  margin-left: 5rem;
+  text-align: center;
+}
+
+.phone {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+/* .sub-text {
+  margin-bottom: 1.5rem;
+} */
+
+.icon {
+  margin-right: 1rem;
+}
