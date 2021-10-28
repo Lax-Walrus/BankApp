@@ -13,6 +13,12 @@
 
 .carousel {
   width: 98%;
-  height: 100%;
+  height: 50%;
   color: black;
+}
+
+.carousel-image {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
 }
