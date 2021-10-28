@@ -11,14 +11,29 @@
   color: black;
 }
 
+/* carousel css */
+
 .carousel {
+  margin-top: 1rem;
+  margin-left: 1rem;
   width: 98%;
   height: 50%;
+}
+
+.carousel-caption {
   color: black;
+}
+
+.carousel-item {
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel-image {
   height: 100%;
   width: 100%;
-  object-fit: fill;
+  fill: white;
 }
+
+/* card */
