@@ -24,16 +24,23 @@
   color: black;
 }
 
+.carousel-inner,
 .carousel-item {
   overflow: hidden;
-  justify-content: center;
-  align-items: center;
+  max-width: 80%;
 }
 
-.carousel-image {
-  height: 100%;
+.carousel-image,
+.carousel-item {
+  height: auto;
   width: 100%;
-  fill: white;
 }
 
 /* card */
+
+.pawprint {
+  display: flex;
+  width: 40%;
+  height: auto;
+  justify-content: center;
+}
