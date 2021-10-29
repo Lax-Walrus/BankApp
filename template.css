@@ -16,8 +16,7 @@
 .carousel {
   margin-top: 1rem;
   margin-left: 1rem;
-  width: 98%;
-  height: 50%;
+  width: 100%;
 }
 
 .carousel-caption {
@@ -26,14 +25,13 @@
 
 .carousel-inner,
 .carousel-item {
-  overflow: hidden;
-  max-width: 80%;
+  width: 100%;
+  height: auto;
 }
 
-.carousel-image,
-.carousel-item {
-  height: auto;
+.carousel-image {
   width: 100%;
+  max-width: 1000px;
 }
 
 /* card */
