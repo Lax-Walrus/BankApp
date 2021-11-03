@@ -39,14 +39,12 @@ body {
 }
 
 .caption-change-1 {
-  margin-bottom: 33rem;
+  margin-bottom: 26rem;
 }
 
 .caption-change-2,
 .caption-change-3 {
-  margin-bottom: 26rem;
-
-  background-color: transparent;
+  margin-bottom: 18rem;
 }
 
 /* card */
@@ -57,3 +55,5 @@ body {
   height: auto;
   justify-content: center;
 }
+
+/* footer */
