@@ -31,11 +31,17 @@ body {
 
 .carousel-image {
   width: 100%;
-  max-width: 1800px;
-  height: 70%;
-  max-height: 625px;
-  object-fit: fill;
-  align-items: right;
+  /* max-width: 1800px; */
+  /* height: 70%; */
+  /* max-height: 625px; */
+  /* object-fit: fill;
+  align-items: right; */
+}
+
+.carousel-item {
+  height: 500px;
+  overflow: hidden;
+  width: 100%;
 }
 
 .caption-change-1 {
@@ -58,9 +64,15 @@ body {
 
 /* section */
 .section_image {
+  margin-left: 4rem;
   width: 400px;
   height: auto;
+  overflow: hidden;
   margin-bottom: 2rem;
+}
+
+.friends {
+  /* margin-left: 1rem; */
 }
 
 /* footer */
