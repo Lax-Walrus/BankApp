@@ -64,6 +64,7 @@ body {
 
 /* section */
 .section_image {
+  margin-top: 2rem;
   margin-left: 4rem;
   width: 400px;
   height: auto;
@@ -71,8 +72,8 @@ body {
   margin-bottom: 2rem;
 }
 
-.friends {
-  /* margin-left: 1rem; */
+.ipsum {
+  margin-top: 2rem;
 }
 
 /* footer */
