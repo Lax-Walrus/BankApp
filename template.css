@@ -11,6 +11,10 @@ body {
   color: black;
 }
 
+.headerSub {
+  text-align: right;
+}
+
 /* carousel css */
 
 .carousel {
